@@ -314,11 +314,12 @@ nav .fa-solid{
         background-image: url(Images/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 20px;
+        margin-top: 80%;
+        font-size: 30px;
     }
     .header-text h1{
-        font-size: 30px;
+        margin-top: 50px;
+        font-size: 40px;
     }
     nav .fa-solid{
         display: block;
