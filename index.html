@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Mandal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5697ff14fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="CloseMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="OpenMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm<br> <span>Rahul </span>Mandal</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="OpenTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="OpenTab('experince')">Experince</p>
+                        <p class="tab-links" onclick="OpenTab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Game Developer</span><br>Developing PC/Mobile games</li>
+                            <li><span>Python Developer</span><br>Developing AI models</li>
+                            <li><span>C++ Developer</span><br>Enhancing the python trained models</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Developing PC/Mobile games using Unity Engine</li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BE in Computer Science from SVCE Bengaluru</li>
+                            <li><span>2020</span><br>Senior Secondary (Class XII) from Oxford Public School Ranchi</li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-----Services---->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hexagon-nodes"></i>
+                    <h2>AI Model Design with Python</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                    <h2>AI Inference Acceleration with C++ </h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--------Portfoilio----->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn">See More</a>
+
+            </div>
+        </div>
+
+    </div>
+    <!--------Contact------>
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>rmandal6112@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-6201162568</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-solid fa-lightbulb"></i></a>
+
+                </div>
+                <a href="Images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="example@gmail.com" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" id="submitBtn">Submit</button>
+                </form>
+               <span id="msg">
+                
+               </span>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Rahul Mandal</p>
+
+        </div>
+
+    </div>
+
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function OpenTab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sideMenu=document.getElementById("sidemenu");
+        function OpenMenu(){
+            sideMenu.style.right = "0";
+        }
+        function CloseMenu(){
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw29csfkb23npbPcgu5oB4gfUVeJjT5xBHakL8MyK0zHMVrlZqdvmrilEcxeI4je_BS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+    submitBtn = document.getElementById("submitBtn");
+    form.addEventListener('submit', e => {
+        submitBtn.disabled = true;
+  submitBtn.innerText = "Sending...";
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML="";
+            },5000)
+            form.reset();
+            submitBtn.disabled = false;
+      submitBtn.innerText = "Submit";
+        })
+        .catch(error =>{
+            console.error('Error!', error.message)
+            submitBtn.disabled = false;
+      submitBtn.innerText = "Submit";
+        } )
+    })
+  </script>
+</body>
+</html>
